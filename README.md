@@ -33,6 +33,7 @@ Dans le programme, un script est représenté come une expression parenthésée 
 ## Exercice 2-1
 Le script que l'on utilisera ici sera :
 
+
   (script (space color black) (robi color yellow) )
 ## Exercice 2-2
 *******************
