@@ -17,9 +17,11 @@ Cet exercice consistait à prendre en main la couche graphique.
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
 
-**Resultat sans redimmensionnement** | **Resultat avec redimmensionnement**
+**Resultat sans redimmensionnement**
 
-![Exercice-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-1.gif "resultat-1")  
+![Exercice-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-1.gif "resultat-1")
+
+**Resultat avec redimmensionnement**
 ![Exercice-1-Resultat-Redim](https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif "resultat-1-redim")
 
 *******************
