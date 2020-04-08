@@ -204,6 +204,11 @@ Modification pour que nos GContainer puissent contenir des éléements. Il suffi
 
 ## Exercice 4-4 Création et exécution de scripts
 
-<p>Ceci est un paragraphe de texte.</p>
+Dans cette partie il fallait pouvoir créer et enregistrer des scripts afin de pouvoir les ré-utiliser quand on le souhaite.
 
-<p>Ceci est un autre paragraphe de texte !</p>
+Pour cela il a fallut ajouter plusieurs classes :
+* AddScript
+* DelScript
+Ainsi qu'apporter des modifications dans la classe :
+* Environment
+
