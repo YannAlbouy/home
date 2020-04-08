@@ -141,6 +141,11 @@ public class SpaceSleep implements Command{
 	}
 }
 ```
+**Script à executer**
+
+```diff
+-(script (space sleep 10000)(space color blue) (robi color green) (robi translate 10 0) (space sleep 100) (robi translate 0 10) (space sleep 100) (robi translate -10 0) (space sleep 100) (robi translate 0 -10) )
+```
 
 **Resultat de l'execution du script**
 
