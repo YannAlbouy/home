@@ -23,6 +23,7 @@ __L'objet était de :__
   * Changement de couleur avec une couleur aléatoire
 
 **Résultat avec redimmensionnement**
+
 ![Exercice-1-Redim](https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif "resultat-1-redim")
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
