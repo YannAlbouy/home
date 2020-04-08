@@ -15,7 +15,7 @@ Développement d’un langage spécifique pour des animations graphiques simples
 ## Exercice 1
 Cet exercice consistait à prendre en main la couche graphique.
 
-L'objet était de :
+__L'objet était de :__
   * Déplacer robi jusqu'au bord droit
   * Déplacement jusqu'au bord bas
   * Déplacement jusqu'au bord gauche
