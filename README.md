@@ -33,7 +33,7 @@ Dans le programme, un script est représenté come une expression parenthésée 
 ## Exercice 2-1
 Le script que l'on utilisera ici sera :
 <span style="color:red">
-```(script (space color black) (robi color yellow) )```
+```*(script (space color black) (robi color yellow) )*```
 </span>
 ## Exercice 2-2
 *******************
