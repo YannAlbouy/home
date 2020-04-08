@@ -15,6 +15,13 @@ Développement d’un langage spécifique pour des animations graphiques simples
 ## Exercice 1
 Cet exercice consistait à prendre en main la couche graphique.
 
+L'objet était de :
+  * Déplacer robi jusqu'au bord droit
+  * Déplacement jusqu'au bord bas
+  * Déplacement jusqu'au bord gauche
+  * Déplacement jusqu'au bord haut
+  * Changement de couleur avec une couleur aléatoire
+
 **Résultat avec redimmensionnement**
 
 ![Exercice-1-Resultat-Redim](https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif "resultat-1-redim")
