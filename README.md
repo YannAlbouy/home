@@ -2,7 +2,7 @@
 Développement d’un langage spécifique pour des animations graphiques simples 
 *******************
 + [Exercice 1 : Prise en main de la couche graphique](#exercice-1-Prise-en-main-de-la-couche-graphique)
-+ [Exercice 2 : Première version d'un interpréteur de script](#exercice-2-Première-version-d-'-un-interpréteur-de-script)
++ [Exercice 2 : Première version d'un interpréteur de script](#exercice-2-Première-version-d'un-interpréteur-de-script)
   + [Exercice 2.1 : Script de configuration](#exercice-2-1)
   + [Exercice 2.2 : Script d'animation](#exercice-2-2)
 + [Exercice 3 : Introduction des commandes](#exercice-3)
