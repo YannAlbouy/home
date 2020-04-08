@@ -23,9 +23,9 @@ __L'objet était de :__
   * Changement de couleur avec une couleur aléatoire
 
 **Résultat avec redimmensionnement**
-
-| ![Exercice-1-Resultat-Redim](https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif "resultat-1-redim") |
-| :--: |
+<p align="center">
+	![Exercice-1-Resultat-Redim](https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif "resultat-1-redim")
+</p>
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
 *******************
@@ -42,9 +42,9 @@ Le script que l'on utilisera ici sera :
 - (script (space color black) (robi color yellow) )
 ```
 **Resultat de l'execution du script**
-<p align="center">
+
 ![Exercice-2-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-2-1.png "resultat-2-1")
-</p>
+
 ## Exercice 2-2 Script d'animation
 
 Le script que l'on utilisera ici sera :
