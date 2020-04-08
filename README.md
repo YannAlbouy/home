@@ -58,6 +58,7 @@ Le script que l'on utilisera ici sera :
 *******************
 ## Exercice 3 Introduction des commandes
 Dans cet exercice il a fallut mettre en place les classes qui mettent en œuvre l'interface *Command*.
+Aucune difficulté n'a été rencontré lors de cet exercice.
 Quatres classes on donc été ajouté : 
   * RobiChangeColor
   * RobiTranslate
