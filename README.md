@@ -63,6 +63,23 @@ Quatres classes on donc été ajouté :
   * RobiTranslate
   * SpaceChangeColor
   * SpaceSleep
+  
+**Classe RobiChangeColor**
+```
+public class SpaceChangeColor implements Command{
+	Color newColor;
+	GSpace space;
+	public SpaceChangeColor(Color newColor, GSpace s) {
+		this.newColor = newColor;
+		this.space = s;
+	}
+	@Override
+	public void run() {
+		/*Changer la couleur du fond */
+		space.setColor(newColor);
+	}
+}
+```
 
 *******************
 ## Exercice 4 Selection et execution des commandes
