@@ -19,7 +19,7 @@ Aucune difficulté n'a été rencontré lors de cet exercice.
 
 __Resultat__
 
-
+![Exercice-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-1.gif "resultat")
 
 *******************
 ## Exercice 2
