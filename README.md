@@ -162,33 +162,43 @@ Ajout des classes *References* et *Environment*
 
 **Classe Reference**
 ```
-public class Reference {
-	Object ref;
-	/*HashMap qui contiendra les commandes*/
-	HashMap<String, Command>primitives = new HashMap<String, Command>();
-	
-	/*Constructeur*/
-	public Reference(Object receiver)
-	{
-		this.ref = receiver;
-	}
-	/*Pour recuperer les commandes avec la chaine passe en parametre*/
-	Command getCommandByName(String selector)
-	{
-		Command c = primitives.get(selector);
-		return c;
-	}
-	/*Ajout d'une commande dans notre hashmap*/
-	public void addCommand(String selector, Command primitive)
-	{
-		primitives.put(selector, primitive);
-	}
-	public Expr run(ExprList method)
-	{
-		primitives.get(method.get(1).toString()).run(ref, method);
-		return method;
+class Reference implements Expr {
+	Object receiver;
+	Map<String, Command> primitives;
+	Environment environment;
+
+	public Reference(Object receiver) {
+		this.receiver = receiver;
+		primitives = new HashMap<String, Command>();
 	}
 
+	public void setEnvironment(Environment environment) {
+		this.environment = environment;
+	}
+	
+	public Command getCommandByName(String selector) {
+		return primitives.get(selector);
+	}
+	```diff
+	-public Expr run(ExprList e) {
+		String selector = e.get(1).getValue();
+		Command c = this.getCommandByName(selector);
+		if (c == null) return null;
+		return c.run(this, e);
+	}
+	```
+	public void addCommand(String selector, Command p) {
+		primitives.put(selector, p);
+	}
+	
+	public Object getReceiver() {
+		return receiver;
+	}
+
+	@Override
+	public String getValue() {
+		return null;
+	}
 }
 ```
 
