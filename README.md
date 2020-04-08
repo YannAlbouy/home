@@ -149,7 +149,7 @@ public class SpaceSleep implements Command{
 
 **Resultat de l'execution du script**
 
-![Exercice-3-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-3.gif "resultat-3")
+![Exercice-3-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-3.gif?style=centerme "resultat-3")
 *******************
 ## Exercice 4 Selection et execution des commandes
 
