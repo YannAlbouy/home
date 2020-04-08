@@ -1,7 +1,7 @@
 # Albouy Yann Licence 3 CDA - Projet de synthese de SI 
 Développement d’un langage spécifique pour des animations graphiques simples 
 *******************
-+ [Exercice 1 : Prise en main de la couche graphique](#exercice-1 prise en main de la couche grahpique)
++ [Exercice 1 : Prise en main de la couche graphique](#exercice-1-Prise-en-main-de-la-couche-graphique)
 + [Exercice 2 : Première version d'un interpréteur de script](#exercice-2)
   + [Exercice 2.1 : Script de configuration](#exercice-2-1)
   + [Exercice 2.2 : Script d'animation](#exercice-2-2)
