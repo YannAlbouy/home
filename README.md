@@ -28,7 +28,7 @@ __L'objet était de :__
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
 *******************
-## Exercice 2
+## Exercice 2 Première version d'un interpréteur de script
 Dans le programme, un script est représenté come une expression parenthésée appelée S-expression.
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
