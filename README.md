@@ -169,6 +169,8 @@ Ajout des classes *References* et *Environment*, avec les differentes methodes.
 	* getReferenceByName
 
 **Methode Run de Reference**
+
+Permet de referencer l'objet graphique a un ensemble de commande
 ```
 public Expr run(ExprList e) {
 		String selector = e.get(1).getValue();
