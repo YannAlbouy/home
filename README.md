@@ -159,14 +159,14 @@ Aucune difficulté n'a été rencontré lors de cet exercice, mis a part un peti
 
 ## Exercice 4-1 Réferencement des objets et enregistrement des commandes
 Ajout des classes *References* et *Environment*, avec les differentes methodes.
-	* Reference
-	 * getCommandByName
-	 * addCommand
-	 * Expr run
-	* Environment
-		* addReference
-		* delReference
-		* getReferenceByName
+* Reference
+	+ getCommandByName
+	* addCommand
+* Expr run
+* Environment
+* addReference
+* delReference
+* getReferenceByName
 
 **Methode Run de Reference**
 ```
