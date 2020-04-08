@@ -32,7 +32,9 @@ Aucune difficulté n'a été rencontré lors de cet exercice.
 Dans le programme, un script est représenté come une expression parenthésée appelée S-expression.
 ## Exercice 2-1
 Le script que l'on utilisera ici sera :
-```diff ```(script (space color black) (robi color yellow) )```
+```diff 
+```(script (space color black) (robi color yellow) )``` 
+diff```
 
 ## Exercice 2-2
 *******************
