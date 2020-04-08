@@ -170,7 +170,7 @@ Ajout des classes *References* et *Environment*, avec les differentes methodes.
 
 **Methode Run de Reference**
 
-Permet de referencer l'objet graphique a un ensemble de commande
+Permet de referencer l'objet graphique à un ensemble de commande
 ```
 public Expr run(ExprList e) {
 		String selector = e.get(1).getValue();
@@ -180,8 +180,15 @@ public Expr run(ExprList e) {
 	}
 ```
 
-
 ## Exercice 4-2 Ajout et suppression dynamique d'éléments graphiques
+Pour cette partie il a fallu créer plusieurs classes :
+* AddElement
+* DelElement
+* NewImage
+* NewString
+* NewElement
+
+
 ## Exercice 4-3 Ajouter des éléments à des conteneurs
 ## Exercice 4-4 Création et exécution de scripts
 
