@@ -18,7 +18,7 @@ Cet exercice consistait à prendre en main la couche graphique.
 Aucune difficulté n'a été rencontré lors de cet exercice.
 
 __**Resultat**__
-_Soul_
+__Soul__
 
 
 *******************
