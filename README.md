@@ -158,70 +158,24 @@ Ajout d'un interpreteur pour faciliter l'utilisation du programme
 Aucune difficulté n'a été rencontré lors de cet exercice, mis a part un petit blocage lors ddu 4.4, cependant il à été reussi.
 
 ## Exercice 4-1 Réferencement des objets et enregistrement des commandes
-Ajout des classes *References* et *Environment*
+Ajout des classes *References* et *Environment*, avec les differentes methodes.
+	* Reference
+		* getCommandByName
+		* addCommand
+		* Expr run
+	* Environment
+		* addReference
+		* delReference
+		* getReferenceByName
 
-**Classe Reference**
+**Methode Run de Reference**
 ```
-class Reference implements Expr {
-	Object receiver;
-	Map<String, Command> primitives;
-	Environment environment;
-
-	public Reference(Object receiver) {
-		this.receiver = receiver;
-		primitives = new HashMap<String, Command>();
-	}
-
-	public void setEnvironment(Environment environment) {
-		this.environment = environment;
-	}
-	
-	public Command getCommandByName(String selector) {
-		return primitives.get(selector);
-	}
-	public Expr run(ExprList e) {
+public Expr run(ExprList e) {
 		String selector = e.get(1).getValue();
 		Command c = this.getCommandByName(selector);
 		if (c == null) return null;
 		return c.run(this, e);
 	}
-
-	public void addCommand(String selector, Command p) {
-		primitives.put(selector, p);
-	}
-	
-	public Object getReceiver() {
-		return receiver;
-	}
-
-	@Override
-	public String getValue() {
-		return null;
-	}
-}
-```
-
-**Classe Environment**
-```
-public class Environment {
-	/*HashMap que l'on créer pour contenir nos ref*/
-	HashMap<String, Reference>variables = new HashMap<String, Reference>();
-	public Environment() {
-		
-	}
-	/*Ajouter une reference dans notre HashMap*/
-	public void addReference(String name, Reference r)
-	{
-		variables.put(name, r);
-	}
-	/*Pour recuperer une reference de notre hashmap*/
-	Reference getReferenceByName(String name)
-	{
-		/*Name est la cle que je recherche*/
-		Reference r = variables.get(name);
-		return r;
-	}
-}
 ```
 
 
