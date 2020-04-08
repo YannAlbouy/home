@@ -15,12 +15,11 @@ Développement d’un langage spécifique pour des animations graphiques simples
 ## Exercice 1
 Cet exercice consistait à prendre en main la couche graphique.
 
-Aucune difficulté n'a été rencontré lors de cet exercice.
-
-**Resultat avec redimmensionnement**
+**Résultat avec redimmensionnement**
 
 ![Exercice-1-Resultat-Redim](https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif "resultat-1-redim")
 
+Aucune difficulté n'a été rencontré lors de cet exercice.
 *******************
 ## Exercice 2
 ## Exercice 2-1
