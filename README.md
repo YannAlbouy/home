@@ -12,7 +12,7 @@ Développement d’un langage spécifique pour des animations graphiques simples
   + [Exercice 4.3 : Ajouter des éléments à des conteneurs](#exercice-4-3)
   + [Exercice 4.4 : Création et exécution de scripts](#exercice-4-4)
 *******************
-## Exercice 1
+## Exercice 1 Prise en main de la couche graphique
 Cet exercice consistait à prendre en main la couche graphique.
 
 __L'objet était de :__
@@ -28,12 +28,12 @@ __L'objet était de :__
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
 *******************
-## Exercice 2
+## Exercice 2 Première version d'un interpréteur de script
 Dans le programme, un script est représenté come une expression parenthésée appelée S-expression.
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
 
-## Exercice 2-1
+## Exercice 2-1 Script de configuration
 
 Le script que l'on utilisera ici sera :
 
@@ -41,15 +41,15 @@ Le script que l'on utilisera ici sera :
 - (script (space color black) (robi color yellow) )
 ```
 
-## Exercice 2-2
+## Exercice 2-2 Script d'animation
 *******************
-## Exercice 3
+## Exercice 3 Introduction des commandes
 *******************
-## Exercice 4
-## Exercice 4-1
-## Exercice 4-2
-## Exercice 4-3
-## Exercice 4-4
+## Exercice 4 Selection et execution des commandes
+## Exercice 4-1 Réferencement des objets et enregistrement des commandes
+## Exercice 4-2 Ajout et suppression dynamique d'éléments graphiques
+## Exercice 4-3 Ajouter des éléments à des conteneurs
+## Exercice 4-4 Création et exécution de scripts
 
 <p>Ceci est un paragraphe de texte.</p>
 
