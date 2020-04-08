@@ -24,7 +24,7 @@ __L'objet était de :__
 
 **Résultat avec redimmensionnement**
 <p align="center">
-	![Exercice-1-Resultat-Redim](https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif "resultat-1-redim")
+	<img src="https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif">
 </p>
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
