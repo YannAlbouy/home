@@ -179,7 +179,7 @@ class Reference implements Expr {
 	public Command getCommandByName(String selector) {
 		return primitives.get(selector);
 	}
-	-public Expr run(ExprList e) {
+	public Expr run(ExprList e) {
 		String selector = e.get(1).getValue();
 		Command c = this.getCommandByName(selector);
 		if (c == null) return null;
