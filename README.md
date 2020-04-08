@@ -57,6 +57,13 @@ Le script que l'on utilisera ici sera :
 
 *******************
 ## Exercice 3 Introduction des commandes
+Dans cet exercice il a fallut mettre en place les classes qui mettent en œuvre l'interface *Command*.
+Quatres classes on donc été ajouté : 
+  * RobiChangeColor
+  * RobiTranslate
+  * SpaceChangeColor
+  * SpaceSleep
+
 *******************
 ## Exercice 4 Selection et execution des commandes
 ## Exercice 4-1 Réferencement des objets et enregistrement des commandes
