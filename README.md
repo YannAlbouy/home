@@ -1,3 +1,6 @@
+# Projet de synthese de SI
+Développement d’un langage spécifique pour des animations graphiques simples 
+*******************
 # Exercice 1
 Cet exercice consistait a prendre en main la couche graphique
 # Exercice 2
