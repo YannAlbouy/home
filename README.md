@@ -2,7 +2,7 @@
 Développement d’un langage spécifique pour des animations graphiques simples 
 *******************
 + [Exercice1](#exercice-1)
-+ [Exercice](#exercice-2)
++ [Exercice2](#exercice-2)
 + [Exercice 3](#exercice-3)
 + [Exercice 4](#exercice-4)
 *******************
