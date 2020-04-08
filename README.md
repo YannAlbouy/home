@@ -1,4 +1,5 @@
 # Exercice 1
+Cet exercice consistait a prendre en main la couche graphique
 # Exercice 2
 # Exercice 3
 # Exercice 4
