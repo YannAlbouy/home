@@ -7,10 +7,10 @@ Développement d’un langage spécifique pour des animations graphiques simples
   + [Exercice 2.2 : Script d'animation](#exercice-2-2)
 + [Exercice 3 : Introduction des commandes](#exercice-3)
 + [Exercice 4 : Selection et execution des commandes](#exercice-4)
-  +[Exercice 4.1 : Réferencement des objets et enregistrement des commandes](#exercice-4-1)
-  +[Exercice 4.2 : Ajout et suppression dynamique d'éléments graphiques](#exercice-4-2)
-  +[Exercice 4.3 : Ajouter des éléments à des conteneurs](#exercice-4-3
-  +[Exercice 4.4 : Création et exécution de scripts](#exercice-4-4
+  + [Exercice 4.1 : Réferencement des objets et enregistrement des commandes](#exercice-4-1)
+  + [Exercice 4.2 : Ajout et suppression dynamique d'éléments graphiques](#exercice-4-2)
+  + [Exercice 4.3 : Ajouter des éléments à des conteneurs](#exercice-4-3)
+  + [Exercice 4.4 : Création et exécution de scripts](#exercice-4-4)
 *******************
 ## Exercice 1
 Cet exercice consistait à prendre en main la couche graphique.
