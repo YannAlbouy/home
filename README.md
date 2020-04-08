@@ -42,7 +42,7 @@ Le script que l'on utilisera ici sera :
 ```
 **Resultat de l'execution du script**
 
-![Exercice-2-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-2-1.png "resultat-2-1")
+![Exercice-2-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-2-1.png "resultat-2-1")
 
 ## Exercice 2-2 Script d'animation
 
@@ -53,6 +53,7 @@ Le script que l'on utilisera ici sera :
 ```
 **Resultat de l'execution du script**
 
+![Exercice-2-2-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-2-2.png "resultat-2-2")
 
 *******************
 ## Exercice 3 Introduction des commandes
