@@ -40,6 +40,8 @@ Le script que l'on utilisera ici sera :
 ```diff
 - (script (space color black) (robi color yellow) )
 ```
+**Resultat de l'execution du script**
+
 
 ## Exercice 2-2 Script d'animation
 *******************
