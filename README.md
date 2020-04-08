@@ -1,7 +1,7 @@
 # Projet de synthese de SI
 Développement d’un langage spécifique pour des animations graphiques simples 
 *******************
-1. [Exercice1](#exercice 1)
+1. [Exercice1](#exercice-1)
 2. [Exercice](#example2)
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
