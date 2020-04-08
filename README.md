@@ -66,6 +66,48 @@ Quatres classes on donc été ajouté :
   
 **Classe RobiChangeColor**
 ```
+public class RobiChangeColor implements Command{
+	Color newColor;
+	GRect robi;
+	public RobiChangeColor(Color c, GRect r)
+	{
+		this.newColor = c;
+		this.robi = r;
+	}
+	@Override
+	public void run()
+	{
+		/*Changer la couleur de robi*/
+		robi.setColor(newColor);
+	}
+}
+```
+
+**Classe RobiTranslate**
+
+```
+public class RobiTranslate implements Command{
+	int x;
+	int y;
+	GRect robi;
+	public RobiTranslate(int x, int y, GRect r)
+	{
+		this.x = x;
+		this.y = y;
+		this.robi = r;
+	}
+	@Override
+	public void run()
+	{
+		/*Faire bouger robi */
+		robi.translate(new Point(x,y));
+	}
+}
+```
+
+**Classe SpaceChangeColor**
+
+```
 public class SpaceChangeColor implements Command{
 	Color newColor;
 	GSpace space;
@@ -81,6 +123,21 @@ public class SpaceChangeColor implements Command{
 }
 ```
 
+**Classe SpaceSleep**
+```
+public class SpaceSleep implements Command{
+	int temps;
+	public SpaceSleep(int temps)
+	{
+		this.temps = temps;
+	}
+	@Override
+	public void run() {
+		/*Faire un temps de pause*/
+		Tools.sleep(temps);
+	}
+}
+```
 *******************
 ## Exercice 4 Selection et execution des commandes
 ## Exercice 4-1 Réferencement des objets et enregistrement des commandes
