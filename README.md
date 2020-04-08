@@ -152,7 +152,70 @@ public class SpaceSleep implements Command{
 ![Exercice-3-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-3.gif "resultat-3")
 *******************
 ## Exercice 4 Selection et execution des commandes
+
+Ajout d'un interpreteur pour faciliter l'utilisation du programme
+
+Aucune difficulté n'a été rencontré lors de cet exercice, mis a part un petit blocage lors ddu 4.4, cependant il à été reussi.
+
 ## Exercice 4-1 Réferencement des objets et enregistrement des commandes
+Ajout des classes *References* et *Environment*
+
+**Classe Reference**
+```
+public class Reference {
+	Object ref;
+	/*HashMap qui contiendra les commandes*/
+	HashMap<String, Command>primitives = new HashMap<String, Command>();
+	
+	/*Constructeur*/
+	public Reference(Object receiver)
+	{
+		this.ref = receiver;
+	}
+	/*Pour recuperer les commandes avec la chaine passe en parametre*/
+	Command getCommandByName(String selector)
+	{
+		Command c = primitives.get(selector);
+		return c;
+	}
+	/*Ajout d'une commande dans notre hashmap*/
+	public void addCommand(String selector, Command primitive)
+	{
+		primitives.put(selector, primitive);
+	}
+	public Expr run(ExprList method)
+	{
+		primitives.get(method.get(1).toString()).run(ref, method);
+		return method;
+	}
+
+}
+```
+
+**Classe Environment**
+```
+public class Environment {
+	/*HashMap que l'on créer pour contenir nos ref*/
+	HashMap<String, Reference>variables = new HashMap<String, Reference>();
+	public Environment() {
+		
+	}
+	/*Ajouter une reference dans notre HashMap*/
+	public void addReference(String name, Reference r)
+	{
+		variables.put(name, r);
+	}
+	/*Pour recuperer une reference de notre hashmap*/
+	Reference getReferenceByName(String name)
+	{
+		/*Name est la cle que je recherche*/
+		Reference r = variables.get(name);
+		return r;
+	}
+}
+```
+
+
 ## Exercice 4-2 Ajout et suppression dynamique d'éléments graphiques
 ## Exercice 4-3 Ajouter des éléments à des conteneurs
 ## Exercice 4-4 Création et exécution de scripts
