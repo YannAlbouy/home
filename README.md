@@ -15,6 +15,11 @@ Développement d’un langage spécifique pour des animations graphiques simples
 ## Exercice 1
 Cet exercice consistait à prendre en main la couche graphique.
 
+Aucune difficulté n'a été rencontré lors de cet exercice.
+
+__**Resultat**__
+
+
 *******************
 ## Exercice 2
 ## Exercice 2-1
