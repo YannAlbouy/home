@@ -206,6 +206,8 @@ Modification pour que nos GContainer puissent contenir des éléements. Il suffi
 
 Dans cette partie il fallait pouvoir créer et enregistrer des scripts afin de pouvoir les ré-utiliser quand on le souhaite.
 
+J'ai rencontré des difficultés pour l'execution des scripts.
+
 Pour cela il a fallut ajouter plusieurs classes :
 * AddScript
 * DelScript
