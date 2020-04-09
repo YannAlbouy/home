@@ -225,4 +225,10 @@ Automatisation de l'exécution des scripts à l'aide d'une classe Test
 Aucune difficulté n'a été rencontré lors de cette partie.
 
 + **Test d'exécution d'un script pour le 4.3**
+
+Une fois l'exécution terminer, le programme rend la main à l'utilisateur pour qu'il puisse saisir des commandes a la main.
+
 ![Test-Exercice-4-3](https://github.com/YannAlbouy/home/blob/master/Exercice4-3-exec.gif "execution-4-3")
+
++ **Test d'exécution d'un script pour le 4.4**
+
