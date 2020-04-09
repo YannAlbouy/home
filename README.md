@@ -227,7 +227,9 @@ Aucune difficulté n'a été rencontré lors de cette partie.
 + **Test d'exécution d'un script pour le 4.3**
 
 Une fois l'exécution terminer, le programme rend la main à l'utilisateur pour qu'il puisse saisir des commandes à la main.
+
 **Script exécuter**
+
 ```diff
 -(space add robi (rect.class new))
 -(space.robi setDim 300 300) 
