@@ -208,6 +208,8 @@ Dans cette partie il fallait pouvoir créer et enregistrer des scripts afin de p
 
 J'ai rencontré des difficultés pour l'execution des scripts.
 
+Pour gerer les scripts, le choix à été porter sur la classe *Environment* plutot que *Reference* car cela simplifie le code et l'interpreteur ne subit pas trop de modification.
+
 Pour cela il a fallut ajouter plusieurs classes :
 * AddScript
 * DelScript
