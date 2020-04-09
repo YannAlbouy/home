@@ -230,18 +230,18 @@ Une fois l'exécution terminer, le programme rend la main à l'utilisateur pour 
 **Script exécuter**
 ```diff
 -(space add robi (rect.class new))
-                (space.robi setDim 300 300) 
-                (space.robi setColor yellow)!" + 
-                (space.robi add ala (rect.class new))
-                (space.robi.ala setDim 200 200)
-                (space.robi.ala setColor white)
-                (space.robi.ala add hello (label.class new \"Hello world\")) 
-                (space.robi.ala.hello translate 10 10)
-                (space.robi.ala.hello setColor black)
-                (space.robi.ala add pif (image.class new test.jpg))
-                (space.robi.ala.pif translate 100 0)
-                (space.robi.ala.pif del pif) 
-                (space del robi)
+-(space.robi setDim 300 300) 
+-(space.robi setColor yellow)!" + 
+-(space.robi add ala (rect.class new))
+-(space.robi.ala setDim 200 200)
+-(space.robi.ala setColor white)
+-(space.robi.ala add hello (label.class new \"Hello world\")) 
+-(space.robi.ala.hello translate 10 10)
+-(space.robi.ala.hello setColor black)
+-(space.robi.ala add pif (image.class new test.jpg))
+-(space.robi.ala.pif translate 100 0)
+-(space.robi.ala.pif del pif) 
+-(space del robi)
 ```
 ![Test-Exercice-4-3](https://github.com/YannAlbouy/home/blob/master/Exercice4-3-exec.gif "execution-4-3")
 
