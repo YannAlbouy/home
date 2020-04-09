@@ -247,6 +247,8 @@ Aucune difficulté n'a été rencontré lors de cette partie.
 ```
 ![Test-Exercice-4-3](https://github.com/YannAlbouy/home/blob/master/Exercice4-3-exec.gif "execution-4-3")
 
+**Exemple d'un script de dessin**
+
 ![Test-coinc-4-3](https://github.com/YannAlbouy/home/blob/master/coinc.png "coinc")
 
 + **Test d'exécution d'un script pour le 4.4**
