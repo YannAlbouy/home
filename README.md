@@ -46,6 +46,8 @@ Le script que l'on utilisera ici sera :
 
 ## Exercice 2-2 Script d'animation
 
++ Introduction des commandes *sleep* et *translate*
+
 Le script que l'on utilisera ici sera :
 
 ```diff
