@@ -158,7 +158,7 @@ public class SpaceSleep implements Command{
 
 Ajout d'un interpreteur pour faciliter l'utilisation du programme
 
-Aucune difficulté n'a été rencontré lors de cet exercice, mis a part un petit blocage lors ddu 4.4, cependant il à été reussi.
+Aucune difficulté n'a été rencontré lors de cet exercice, mis a part un petit blocage lors du 4.4, cependant il à été reussi.
 
 ## Exercice 4-1 Réferencement des objets et enregistrement des commandes
 Ajout des classes *References* et *Environment*, avec les differentes methodes.
