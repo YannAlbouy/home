@@ -184,6 +184,10 @@ public Expr run(ExprList e) {
 
 **Exécution d'un script de test**
 
+```
+ (space sleep 1000)!(robi setColor green)(space sleep 500)(space setColor white)(space sleep 500)(robi setColor blue)(space setColor yellow)(robi translate 30 30) 
+```
+
 ![Exercice-4-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice4-1.gif "resultat-4-1")
 
 ## Exercice 4-2 Ajout et suppression dynamique d'éléments graphiques
