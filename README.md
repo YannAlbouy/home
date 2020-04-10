@@ -245,29 +245,31 @@ Le programme de test commence par ajouter les differents scripts, puis ils s'ex�
 
 **Script exécuter**
 
-```diff
--(space add robi (rect.class new))
--(space.robi setDim 300 300) 
--(space.robi setColor yellow)!" + 
--(space.robi add ala (rect.class new))
--(space.robi.ala setDim 200 200)
--(space.robi.ala setColor white)
--(space.robi.ala add hello (label.class new \"Hello world\")) 
--(space.robi.ala.hello translate 10 10)
--(space.robi.ala.hello setColor black)
--(space.robi.ala add pif (image.class new test.jpg))
--(space.robi.ala.pif translate 100 0)
--(space.robi.ala.pif del pif) 
--(space del robi)
+```
+(space addScript addImage((self filename name)(self add w (Image new filename))))
+(space addScript addRect (( self name w c )( self add name ( Rect new ) )( self.name setColor c )( self.name setDim w w ) ) )
+(space addScript addOval (( self name w c )( self add name ( Oval new ) )( self.name setColor c )( self.name setDim w w ) ) )
+(space addScript addLabel (( self text name)( self add w ( Label new text ) ) ) )
+(space addScript delElement ( ( self filename )( self del filename ) ) )
+(space addScript trslt (  (self filename w c ) (self translate w c )  ) )
+(space addImage france.png france)
+(space trslt france 10 5 )
+(space addImage test.jpg test)
+(space addRect robi 30 yellow )
+(space addOval momo 60 red )
+(space addLabel \"blabla\" lab1)
+(space addLabel \"Bonsoir\" lab2)
+(space delElement robi)
+(space delElement momo)
+(space delElement lab1)
+(space delElement test)
+(space delElement france)
+(space delElement lab2)
+(space delScript addRect)
+(space delScript addImage)
+(space delScript addOval)
+(space delScript label)
 ```
 
 ![Test-Exercice-4-4](https://github.com/YannAlbouy/home/blob/master/Exercice4-4-exec.gif "execution-4-4")
-
-## Test d'éxecution de scripts
-
-Automatisation de l'exécution des scripts à l'aide d'une classe Test.
-
-Une fois l'exécution terminer, le programme rend la main à l'utilisateur pour qu'il puisse saisir des commandes à la main.
-
-Aucune difficulté n'a été rencontré lors de cette partie.
 
