@@ -270,6 +270,6 @@ Le programme de test commence par ajouter les differents scripts, puis ils s'ex√
 (space delScript addOval)
 (space delScript label)
 ```
-
+**Resultat de l'ex√©cution*
 ![Test-Exercice-4-4](https://github.com/YannAlbouy/home/blob/master/Exercice4-4-exec.gif "execution-4-4")
 
