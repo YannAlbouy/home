@@ -203,6 +203,24 @@ Pour cette partie il a fallu créer plusieurs classes :
 
 Modification pour que nos GContainer puissent contenir des éléements. Il suffit d'autoriser les GContainer à contenir des éléments.
 
+**Script exécuter**
+
+```
+"(space add robi (rect.class new))!"
+"(space.robi setDim 300 300)!"
+"(space.robi setColor yellow)!"
+"(space.robi add ala (rect.class new))!"
+"(space.robi.ala setDim 200 200)!"
+"(space.robi.ala setColor white)!"
+"(space.robi.ala add hello (label.class new \"Hello world\"))!"
+"(space.robi.ala.hello translate 10 10)!"
+"(space.robi.ala.hello setColor black)!"
+"(space.robi.ala add pif (image.class new test.jpg))!"
+"(space.robi.ala.pif translate 100 0)!"
+"(space.robi.ala.pif del pif)!"
+"(space del robi)"
+```
+
 **Resultat lors de l'execution du script**
 
 ![Exercice-4-3-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice4-3.png "resultat-4-3")
