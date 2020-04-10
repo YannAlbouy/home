@@ -284,4 +284,5 @@ Le programme de test commence par ajouter les differents scripts, puis ils s'ex�
 ## Conclusion
 
 Grâce à ce projet, j'ai pu approfondir mes connaissances en Java, et plus particulierement ce qui touche aux graphiques.
-Concernant les solutions choisies, j'ai fait le choix de la gestion par les environments.
+Concernant les solutions choisies, j'ai fait le choix de la gestion au travers d'un environment, ce qui permet d'alleger le code.
+Cette solution me parait bien plus optimale que le faire de gerer plusieurs environment.
