@@ -282,3 +282,6 @@ Le programme de test commence par ajouter les differents scripts, puis ils s'ex�
 ![Test-Exercice-4-4](/Exercice4-4-exec.gif "execution-4-4")
 
 ## Conclusion
+
+Grâce à ce projet, j'ai pu approfondir mes connaissances en Java, et plus particulierement ce qui touche aux graphiques.
+Concernant les solutions choisies, j'ai fait le choix de la gestion par les environment
