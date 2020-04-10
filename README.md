@@ -24,7 +24,7 @@ __L'objet était de :__
 
 **Résultat avec redimmensionnement**
 
-![Exercice-1-Redim](https://github.com/YannAlbouy/home/blob/master/Exercice-1-redim.gif "resultat-1-redim")
+![Exercice-1-Redim](/Exercice-1-redim.gif "resultat-1-redim")
 
 Aucune difficulté n'a été rencontré lors de cet exercice.
 *******************
@@ -42,7 +42,7 @@ Le script que l'on utilisera ici sera :
 ```
 **Resultat de l'execution du script**
 
-![Exercice-2-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-2-1.png "resultat-2-1")
+![Exercice-2-1-Resultat](/Exercice-2-1.png "resultat-2-1")
 
 ## Exercice 2-2 Script d'animation
 
@@ -55,7 +55,7 @@ Le script que l'on utilisera ici sera :
 ```
 **Resultat de l'execution du script**
 
-![Exercice-2-2-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-2-2.gif "resultat-2-2")
+![Exercice-2-2-Resultat](/Exercice-2-2.gif "resultat-2-2")
 
 *******************
 ## Exercice 3 Introduction des commandes
@@ -151,7 +151,7 @@ public class SpaceSleep implements Command{
 
 **Resultat de l'execution du script**
 
-![Exercice-3-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice-3.gif "resultat-3")
+![Exercice-3-Resultat](/Exercice-3.gif "resultat-3")
 *******************
 ## Exercice 4 Selection et execution des commandes
 
@@ -188,7 +188,7 @@ public Expr run(ExprList e) {
 -(space sleep 1000)!(robi setColor green)(space sleep 500)(space setColor white)(space sleep 500)(robi setColor blue)(space setColor yellow)(robi translate 30 30) 
 ```
 
-![Exercice-4-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice4-1.gif "resultat-4-1")
+![Exercice-4-1-Resultat](/Exercice4-1.gif "resultat-4-1")
 
 ## Exercice 4-2 Ajout et suppression dynamique d'éléments graphiques
 Pour cette partie il a fallu créer plusieurs classes :
@@ -228,7 +228,7 @@ Modification pour que nos GContainer puissent contenir des éléments. Il suffit
 
 **Resultat lors de l'execution du script**
 
-![Exercice-4-3-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice4-3-test.gif "resultat-4-3")
+![Exercice-4-3-Resultat](/Exercice4-3-test.gif "resultat-4-3")
 
 ## Exercice 4-4 Création et exécution de scripts
 
@@ -277,5 +277,5 @@ Le programme de test commence par ajouter les differents scripts, puis ils s'ex�
 (space delScript label)
 ```
 **Resultat de l'exécution*
-![Test-Exercice-4-4](https://github.com/YannAlbouy/home/blob/master/Exercice4-4-exec.gif "execution-4-4")
+![Test-Exercice-4-4](/Exercice4-4-exec.gif "execution-4-4")
 
