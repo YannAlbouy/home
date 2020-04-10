@@ -203,7 +203,7 @@ Pour cette partie il a fallu créer plusieurs classes :
 ```diff
 -(space add robi (rect.class new)) (robi translate 130 50)(robi setColor yellow)(space add momo (oval.class new))(momo setColor red)(momo translate 80 80)(space add pif (image.class new alien.gif))(pif translate 100 0)(space add hello (label.class new "Hello world"))(hello translate 10 10)(hello setColor black)
 ```
-![Exercice-4-2-Resultat](/Exercice4-2.png "resultat-4-2")
+![Exercice-4-2-Resultat](/Exercice4-2-exec.gif "resultat-4-2-exec")
 
 ## Exercice 4-3 Ajouter des éléments à des conteneurs
 
