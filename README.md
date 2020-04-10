@@ -11,7 +11,6 @@ Développement d’un langage spécifique pour des animations graphiques simples
   + [Exercice 4.2 : Ajout et suppression dynamique d'éléments graphiques](#exercice-4-2-ajout-et-suppression-dynamique-déléments-graphiques)
   + [Exercice 4.3 : Ajouter des éléments à des conteneurs](#exercice-4-3-ajouter-des-éléments-à-des-conteneurs)
   + [Exercice 4.4 : Création et exécution de scripts](#exercice-4-4-création-et-exécution-de-scripts)
-+ [Test d'execution de scripts](#test-déxecution-de-scripts)
 *******************
 ## Exercice 1 Prise en main de la couche graphique
 Cet exercice consistait à prendre en main la couche graphique.
@@ -240,15 +239,9 @@ Pour cela il a fallut ajouter plusieurs classes :
 Ainsi qu'apporter des modifications dans la classe :
 * Environment
 
-## Test d'éxecution de scripts
++ **Test d'exécution d'un script pour le 4.4**
 
-Automatisation de l'exécution des scripts à l'aide d'une classe Test.
-
-Une fois l'exécution terminer, le programme rend la main à l'utilisateur pour qu'il puisse saisir des commandes à la main.
-
-Aucune difficulté n'a été rencontré lors de cette partie.
-
-+ **Test d'exécution d'un script pour le 4.3**
+Le programme de test commence par ajouter les differents scripts, puis ils s'exécutent automatiquement. Puis il y a la suppression des scripts. Une fois le script supprimer, l'utilisateur ne pourra plus refaire la commande d'exécution, il devra tout d'abord re-ajouter le script.
 
 **Script exécuter**
 
@@ -267,16 +260,14 @@ Aucune difficulté n'a été rencontré lors de cette partie.
 -(space.robi.ala.pif del pif) 
 -(space del robi)
 ```
-![Test-Exercice-4-3](https://github.com/YannAlbouy/home/blob/master/Exercice4-3-exec.gif "execution-4-3")
-
-**Exemple d'un script de dessin**
-
-![Test-coinc-4-3](https://github.com/YannAlbouy/home/blob/master/coinc.png "coinc")
-
-+ **Test d'exécution d'un script pour le 4.4**
-
-Le programme de test commence par ajouter les differents scripts, puis ils s'exécutent automatiquement. Puis il y a la suppression des scripts. Une fois le script supprimer, l'utilisateur ne pourra plus refaire la commande d'exécution, il devra tout d'abord re-ajouter le script.
 
 ![Test-Exercice-4-4](https://github.com/YannAlbouy/home/blob/master/Exercice4-4-exec.gif "execution-4-4")
 
+## Test d'éxecution de scripts
+
+Automatisation de l'exécution des scripts à l'aide d'une classe Test.
+
+Une fois l'exécution terminer, le programme rend la main à l'utilisateur pour qu'il puisse saisir des commandes à la main.
+
+Aucune difficulté n'a été rencontré lors de cette partie.
 
