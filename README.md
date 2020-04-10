@@ -243,7 +243,7 @@ Pour cela il a fallut ajouter plusieurs classes :
 * DelScript
 
 Ainsi qu'apporter des modifications dans la classe :
-* Environment
+* Environment, ajout de la méthode RunScript
 
 + **Test d'exécution d'un script pour le 4.4**
 
@@ -276,6 +276,10 @@ Le programme de test commence par ajouter les differents scripts, puis ils s'ex�
 (space delScript addOval)
 (space delScript label)
 ```
-**Resultat de l'exécution*
+**Resultat de l'exécution**
+
 ![Test-Exercice-4-4](/Exercice4-4-exec.gif "execution-4-4")
+
+**Conclusion**
+
 
