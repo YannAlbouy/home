@@ -223,7 +223,7 @@ Modification pour que nos GContainer puissent contenir des éléements. Il suffi
 
 **Resultat lors de l'execution du script**
 
-![Exercice-4-3-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice4-3.png "resultat-4-3")
+![Exercice-4-3-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice4-3-test.gif "resultat-4-3")
 
 ## Exercice 4-4 Création et exécution de scripts
 
