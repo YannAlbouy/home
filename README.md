@@ -158,7 +158,7 @@ public class SpaceSleep implements Command{
 
 Ajout d'un interpreteur pour faciliter l'utilisation du programme
 
-Pour cette partie, une classe *Test* à été rajouté, lorsqu'on la lance, elle exécute les scripts/commandes et laisse ensuite la main à l'utilisateur afin qu'il puisse saisir lui meme des commandes.
+Pour cette partie, une classe *Test* à été rajouté dans chaque sous partie, lorsqu'on la lance elle exécute les scripts/commandes et laisse ensuite la main à l'utilisateur afin qu'il puisse saisir lui meme des commandes.
 
 Aucune difficulté n'a été rencontré lors de cet exercice, mis a part un petit blocage lors du 4.4, cependant il à été reussi.
 
