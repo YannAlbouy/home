@@ -181,6 +181,10 @@ public Expr run(ExprList e) {
 	}
 ```
 
+**Exécution d'un script de test**
+
+![Exercice-4-1-Resultat](https://github.com/YannAlbouy/home/blob/master/Exercice4-1.gif "resultat-4-1")
+
 ## Exercice 4-2 Ajout et suppression dynamique d'éléments graphiques
 Pour cette partie il a fallu créer plusieurs classes :
 * AddElement
